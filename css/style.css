@@ -1,0 +1,125 @@
+#title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: orange;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url("/kalkulator-suhu/images/galaksi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+footer {
+    background-color: rgb(21, 22, 22);
+    box-shadow: 10px 5px 5px rgba(167, 249, 242, 255);
+    color: orange;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    border: 1px solid #0a0a0a;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 10px 5px 5px rgba(167, 249, 242, 255);
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(21, 22, 22);
+}
+
+#title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: orange;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: orange;
+}
+
+textarea {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.operations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.convert {
+    background-color: #4caf50;
+}
+
+.convert:hover {
+    background-color: #45a049;
+}
+
+.reset {
+    background-color: #f44336;
+}
+
+.reset:hover {
+    background-color: #d32f2f;
+}
+
+.reverse {
+    background-color: #007bff;
+}
+
+.reverse:hover {
+    background-color: #0056b3;
+}
+
+#err_msg {
+    font-size: 12px;
+    color: #f44336;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 4px;
+    display: none;
+}
+
+.error {
+    margin-bottom: 0px;
+    border: 2px solid red;
+}
+
+.msg_show {
+    display: inline-block !important;
+}
